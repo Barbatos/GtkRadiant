@@ -686,7 +686,8 @@ extern qboolean g_bShowAllShaders;
 // texwindow.cpp
 //
 //++timo TODO: we can probably raise the MAX_TEXTUREDIRS limit?
-#define     MAX_TEXTUREDIRS 256
+//++barbatos: yup! even more?
+#define     MAX_TEXTUREDIRS 1024
 
 extern CPtrArray g_lstSkinCache;
 qtexture_t *QERApp_LoadTextureRGBA( unsigned char* pPixels, int nWidth, int nHeight );
